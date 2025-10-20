@@ -1,0 +1,190 @@
+:root {
+    --Text-Primary: #121416;
+    --Text-Secondary: #6a7281;
+    --Background: #FFFFFF;
+    --Border: #f1f2f4;
+    --Primary-Button: #b2c5e5;
+
+
+    /*font*/
+    --Primary-font: "Work Sans", sans-serif;
+    --secandry-font: "Noto Sans", sans-serif;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 12rem;
+    background-color: var(--Background);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    height: 40px;
+    padding: 16px 20px;
+    background-color: var(--Primary-Button);
+    color: var(--Text-Primary);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    height: 60px;
+    border-bottom: 1px solid var(--Border);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo .logo_img {
+    width: 16px;
+    height: 16px;
+}
+
+.logo span {
+    font-family: var(--secandry-font);
+}
+
+.nav_list nav ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.nav_list nav ul a li {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--Text-Primary);
+}
+
+#hero {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAYKFRxdYXCyZt_R25M0l0iIeR5scEOFHZlpc8u9OgTxrFXOc3-Pao9oAmpyvRDmWm12RBnkIPmO5cO2VwlIcoxfm77ZkIxQqOTxF66kOCh4g8oq1D4Vp26xNa0Xqliv8jsOsfBUCDtH8doz2Rq-AUG4kMMh88mxlR9E6xCavVU3rcf0jU5VF3YYVThsHTLtcuLwnZXh4_QIeX-9hPy6lTJTcz0xLX3-WITTdYMESn1XfVbay2yEy4r1p-CP_5UdkMlG2cjR57_ueY);
+
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 100px 100px;
+    border-radius: 12px;
+}
+
+#hero h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: var(--Primary-font);
+    color: #FFFFFF;
+}
+
+#hero p {
+    font-size: 16px;
+
+    font-family: var(--Secandry-font);
+    color: #FFFFFF;
+}
+
+#about h2 {
+    font-size: 24px;
+    font-family: var(--Primary-font);
+}
+
+#about p {
+    font-family: var(--Primary-font);
+    padding-top: 12px;
+
+}
+
+#services {
+
+    padding: 40px 0;
+}
+
+#services h2 {
+    font-size: 24px;
+    font-family: var(--Primary-font);
+}
+
+.services_card {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.service_type h3 {
+    font-size: 16px;
+    font-family: var(--Primary-font);
+}
+
+.service_type p {
+    width: 90%;
+    font-family: var(--Primary-font);
+    color: var(--Text-Secondary);
+}
+
+.service_img img {
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+
+#footer {
+    padding: 40px 20px;
+    border-top: 1px solid var(--Border);
+}
+
+.footer_links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footer_links ul li {
+    font-size: 16px;
+    font-family: var(--Primary-font);
+    color: var(--Text-Secondary);
+
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--Primary-font);
+    color: var(--Text-Secondary);
+    padding-top: 24px;
+}
